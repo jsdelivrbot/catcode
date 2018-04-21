@@ -1,0 +1,47 @@
+.box {
+  background-color: #d9d9d9;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  width: 260px;
+  height: 290px;
+  bottom: 0;
+  position: fixed;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.box-title {
+  height: 30px;
+  background-color: #0694ED;
+  width: auto;
+}
+
+.box-msg {
+  height: 100%;
+  width: 100%;
+  background-color: #161719;
+}
+
+.box-txt {
+  align-items: center;
+  background-color: #242729;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: auto;
+  z-index: 999;
+}
+
+.msg {
+  background-color: #242729;
+  border: none;
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+.send {
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+}
