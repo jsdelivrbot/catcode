@@ -1,0 +1,12 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.bubble {
+  background-color: #053b5d;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  margin: 5px;
+  max-width: 210px ;
+  overflow-wrap: break-word;
+  padding: 5px;
+}

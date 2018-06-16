@@ -1,20 +1,20 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import catcode from './catcode.png'
+import Item from './Item.js'
 import './Topbar.css'
 
 const Topbar = () => {
     return (
       <div className="topbar">
         <div className="bar">
-          <span> About </span>
-          <span> Works </span>
-          <span> Skill </span>
+          <Item name={ 'About' } />
+          <Item name={ 'Work' } />
         </div>
-        <img className="logo" src={catcode} alt="logo"/>
+        <img className="logo" src={ catcode } alt="logo"/>
         <div className="bar">
-          <span> Medium </span>
-          <span> Github </span>
+          <Item name={ 'Medium' } />
+          <Item name={ 'Github' } />
         </div>
       </div>
     )

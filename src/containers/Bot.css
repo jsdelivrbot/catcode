@@ -1,31 +1,49 @@
 .box {
   background-color: #d9d9d9;
+  bottom: 0;
   display: flex;
   flex-flow: column;
-  justify-content: space-between;
-  width: 260px;
   height: 290px;
-  bottom: 0;
-  position: fixed;
+  justify-content: space-between;
   margin-left: 20px;
   margin-right: 20px;
+  position: fixed;
+  width: 260px;
 }
 
 .box-title {
-  height: 30px;
   background-color: #0694ED;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 30px;
   width: auto;
 }
 
+.box-title span {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.messages {
+  align-items: flex-start;
+  display: flex;
+  flex-flow: column;
+  max-height: 210px;
+  min-height: 210px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
 .box-msg {
+  background-color: #161719;
   height: 100%;
   width: 100%;
-  background-color: #161719;
 }
 
 .box-txt {
   align-items: center;
-  background-color: #242729;
+  background-color: #141617;
   display: flex;
   flex-direction: row;
   height: 50px;
@@ -34,7 +52,7 @@
 }
 
 .msg {
-  background-color: #242729;
+  background-color: #141617;
   border: none;
   color: #ffffff;
   margin-left: 5px;
