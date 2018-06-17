@@ -1,6 +1,7 @@
 .box {
   background-color: #d9d9d9;
   bottom: 0;
+  right: 0;
   display: flex;
   flex-flow: column;
   height: 290px;
@@ -8,15 +9,16 @@
   margin-left: 20px;
   margin-right: 20px;
   position: fixed;
-  width: 260px;
+  width: 240px;
 }
 
 .box-title {
-  background-color: #0694ED;
-  display: flex;
   align-items: center;
-  justify-content: space-around;
+  background-color: #0694ED;
+  cursor: pointer;
+  display: flex;
   height: 30px;
+  justify-content: space-around;
   width: auto;
 }
 
@@ -33,6 +35,7 @@
   min-height: 210px;
   overflow-y: auto;
   overflow-x: hidden;
+  background-color: #212326;
 }
 
 .box-msg {
@@ -47,7 +50,7 @@
   display: flex;
   flex-direction: row;
   height: 50px;
-  width: auto;
+  width: 240px;
   z-index: 999;
 }
 
@@ -55,7 +58,8 @@
   background-color: #141617;
   border: none;
   color: #ffffff;
-  margin-left: 5px;
+  margin-left: 4px;
+  width: 199px;
 }
 
 .send {

@@ -1,0 +1,19 @@
+.bot {
+  align-items: center;
+  background-color: #0694ED !important;
+  border-radius: 50%;
+  bottom: 0;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  margin: 10px;
+  position: fixed;
+  right: 0;
+  width: 50px;
+}
+
+.bot img {
+  height: 45px;
+  width: 45px;
+}
