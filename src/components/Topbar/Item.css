@@ -1,6 +1,7 @@
-img {
+.item-img {
   height: 20px;
   margin-left: 3px;
   margin-right: 3px;
+  visibility: hidden;
   width: 20px;
 }

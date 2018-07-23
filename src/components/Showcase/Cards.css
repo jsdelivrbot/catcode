@@ -1,7 +1,19 @@
+@media (max-width: 600px) {
+  .table { }
+}
+
 .table {
-  align-items: center;
   display: flex;
   flex-flow: row;
   justify-content: center;
   margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.cardbox {
+  background-color: #352b38;
+  min-height: 500px;
+  min-width: 290px;
+  margin: 10px;
+  margin-bottom: 100px;
 }
