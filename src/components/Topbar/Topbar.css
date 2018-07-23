@@ -1,9 +1,10 @@
 .topbar {
+  align-items: center;
   background-color: #1A1F21;
   display: flex;
-  justify-content: center;
-  align-items: center;
   height: 70px;
+  justify-content: center;
+  position: fixed;
   width: 100%;
 }
 

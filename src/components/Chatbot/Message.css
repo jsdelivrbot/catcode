@@ -10,11 +10,12 @@
   padding: 5px;
 }
 
-.bot {
+.bot-msg {
   background-color: #5e5e5e;
   align-self: flex-end;
 }
 
-.user {
+.user-msg {
   background-color: #053b5d;
+  padding-right: -40px;
 }

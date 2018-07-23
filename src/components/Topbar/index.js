@@ -1,6 +1,6 @@
 import React from 'react'
 
-import catcode from './catcode.png'
+import catcode from '../../assets/catcode.png'
 import Item from './Item.js'
 import './Topbar.css'
 

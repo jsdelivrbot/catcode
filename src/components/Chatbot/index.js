@@ -1,17 +1,16 @@
 import React, { Component } from 'react'
 
-import store from '../containers/store'
+import store from '../../store'
 import Bot from './Bot'
 import Botbutton from './Botbutton'
 
 
-class Chat extends Component {
+class Chatbot extends Component {
   constructor(){
     super()
     this.state = { show: false }
     store.subscribe(() => { this.setState({ show: store.getState().chat }) })
   }
-
 
   render() {
     return (
@@ -22,4 +21,4 @@ class Chat extends Component {
   }
 }
 
-export default Chat
+export default Chatbot

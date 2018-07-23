@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 
-import Topbar from '../components/Topbar'
-import Ribbon from '../components/Ribbon'
-import Chat from '../components/Chat'
+import Topbar from './components/Topbar'
+import Ribbon from './components/Ribbon'
+import Chatbot from './components/Chatbot'
+import Showcase from './components/Showcase'
 import './App.css'
 
 class App extends Component {
@@ -11,7 +12,8 @@ class App extends Component {
       <div>
         <Topbar />
         <Ribbon />
-        <Chat />
+        <Showcase />
+        <Chatbot />
       </div>
     )
   }
