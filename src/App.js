@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 
-import Topbar from './components/Topbar'
-import Ribbon from './components/Ribbon'
 import Chatbot from './components/Chatbot'
+import Footer from './components/Footer'
+import Ribbon from './components/Ribbon'
 import Showcase from './components/Showcase'
+import Timeline from './components/Timeline'
+import Topbar from './components/Topbar'
 import './App.css'
 
 class App extends Component {
@@ -12,8 +14,10 @@ class App extends Component {
       <div>
         <Topbar />
         <Ribbon />
+        <Timeline />
         <Showcase />
         <Chatbot />
+        <Footer />
       </div>
     )
   }

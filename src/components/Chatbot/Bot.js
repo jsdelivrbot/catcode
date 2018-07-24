@@ -40,7 +40,7 @@ class Bot extends React.Component {
         }
       </div>
       <div className="box-txt">
-        <input className="msg"
+          <input className="msg"
           value={ this.state.text }
           onChange={this.handleChangeInput} />
         <img src={ tg } className="send" alt="b" onClick={ () => this.addMessage('user-msg') }/>

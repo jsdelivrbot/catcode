@@ -1,4 +1,11 @@
 @media (max-width: 600px) {
+  .topbar {
+    max-height: 40px;
+  }
+  .logo {
+    max-width: 60px;
+    max-height: 60px;
+  }
   span {
     display: none;
   }

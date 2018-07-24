@@ -6,14 +6,19 @@
   display: flex;
   flex-flow: row;
   justify-content: center;
-  margin-top: 50px;
+  margin-bottom: 50px;
   flex-wrap: wrap;
 }
 
 .cardbox {
-  background-color: #352b38;
-  min-height: 500px;
+  border: 3px solid #1d2d34;
+  background-color: #1A1F21;
+  min-height: 290px;
   min-width: 290px;
   margin: 10px;
-  margin-bottom: 100px;
+}
+
+.h2 {
+  font-family: monospace;
+  font-size: 30px;
 }
